@@ -21,6 +21,9 @@ label {
 .title {
   margin-top: 10px;
   text-align: center;
-  color: aqua;
+  color: brown;
   font-weight: 900;
+}
+h2 {
+  color: blue !important;
 }

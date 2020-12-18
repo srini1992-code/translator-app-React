@@ -8,6 +8,7 @@ export default ({ label, value, onChange }) => {
         className="input"
         value={value}
         onChange={(e) => onChange(e.target.value)}
+        
       />
     </div>
   );

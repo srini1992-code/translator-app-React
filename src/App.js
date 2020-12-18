@@ -10,8 +10,8 @@ export default function App() {
 
   return (
     <div>
-      <h1 class="title">Translator App</h1>
-      <Field label="Enter English" onChange={setText} value={text} />
+      <h2 class="title">Translator App</h2>
+      <Field label="Enter in English" onChange={setText} value={text} />
       <Languages language={language} onLanguageChange={setLanguage} />
       <hr />
       <Translate text={text} language={language} />
